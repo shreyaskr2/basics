@@ -1,0 +1,25 @@
+// Sample JavaScript Code
+
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+
+const numbers = [1, 2, 3, 4, 5];
+const doubled = numbers.map(n => n * 2);
+
+console.log(greet("World"));
+console.log("Doubled:", doubled);
+
+class Calculator {
+  add(a, b) {
+    return a + b;
+  }
+  
+  subtract(a, b) {
+    return a - b;
+  }
+}
+
+const calc = new Calculator();
+console.log("5 + 3 =", calc.add(5, 3));
+console.log("5 - 3 =", calc.subtract(5, 3));
