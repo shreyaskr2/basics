@@ -1,15 +1,15 @@
-// Sample JavaScript code
+// Sample JavaScript Code
+
 function greet(name) {
   return `Hello, ${name}!`;
 }
 
 const numbers = [1, 2, 3, 4, 5];
-const doubled = numbers.map(num => num * 2);
+const doubled = numbers.map(n => n * 2);
 
 console.log(greet("World"));
-console.log(doubled);
+console.log("Doubled:", doubled);
 
-// Sample class
 class Calculator {
   add(a, b) {
     return a + b;
@@ -21,4 +21,5 @@ class Calculator {
 }
 
 const calc = new Calculator();
-console.log(calc.add(10, 5));
+console.log("5 + 3 =", calc.add(5, 3));
+console.log("5 - 3 =", calc.subtract(5, 3));
